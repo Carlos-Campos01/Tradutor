@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 141, 141);
+    background-image: linear-gradient(135deg, rgb(6, 141, 141), rgb(4, 88, 88));
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;
+}
+
+h1{
+    color: white;
+    letter-spacing: 1px;
+}
+
+h2{
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content{
+    padding: 15px;
+    box-shadow: 0 3px 5px #000300;
+    background-color: rgb(222, 225, 228);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.selects{
+    display: flex;
+    gap: 5px;
+}
+
+select{
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.texto{
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+textarea{
+    border-color: black;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    width: 50%;
+    border-radius: 5px;
+    resize: none;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(5, 94, 97);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
